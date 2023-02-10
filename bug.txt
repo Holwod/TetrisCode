@@ -1,0 +1,14 @@
+BUG
+1.在FrmTetris.cs中 
+else if (e.KeyCode == Keys.N)  //如果更改Keys.N 为deasilRotateKey
+       
+            {
+                p.DeasilRotate();
+            }
+            else if (e.KeyCode == Keys.M)  // 更改Keys.M 为contraRotateKey
+            {
+                p.ContraRotate();
+            }
+则俄罗斯方块画板会擦除不了
+
+2.环境变量不能使用中文数字，（可以写个提示）
